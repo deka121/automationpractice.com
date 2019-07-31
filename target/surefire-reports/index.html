@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">5 suites</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-com.msp.framework.stepdefinition.LoginStep">
+              <span class="suite-name border-passed">com.msp.framework.stepdefinition.LoginStep</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-com.msp.framework.stepdefinition.LoginStep">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-com.msp.framework.stepdefinition.LoginStep">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-com.msp.framework.stepdefinition.LoginStep">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-com.msp.framework.stepdefinition.LoginStep">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-com.msp.framework.stepdefinition.LoginStep">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-com.msp.framework.stepdefinition.LoginStep">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-com.msp.framework.stepdefinition.LoginStep">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">0 methods,   </span>
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-com.msp.framework.stepdefinition.OrderStep">
+              <span class="suite-name border-passed">com.msp.framework.stepdefinition.OrderStep</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-com.msp.framework.stepdefinition.OrderStep">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-com.msp.framework.stepdefinition.OrderStep">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-com.msp.framework.stepdefinition.OrderStep">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-com.msp.framework.stepdefinition.OrderStep">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-com.msp.framework.stepdefinition.OrderStep">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-com.msp.framework.stepdefinition.OrderStep">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-com.msp.framework.stepdefinition.OrderStep">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">0 methods,   </span>
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-com.msp.framework.stepdefinition.Hooks">
+              <span class="suite-name border-passed">com.msp.framework.stepdefinition.Hooks</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-com.msp.framework.stepdefinition.Hooks">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-com.msp.framework.stepdefinition.Hooks">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-com.msp.framework.stepdefinition.Hooks">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-com.msp.framework.stepdefinition.Hooks">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-com.msp.framework.stepdefinition.Hooks">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-com.msp.framework.stepdefinition.Hooks">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-com.msp.framework.stepdefinition.Hooks">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">0 methods,   </span>
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-com.msp.framework.testrunner.TestRunner">
+              <span class="suite-name border-passed">com.msp.framework.testrunner.TestRunner</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-com.msp.framework.testrunner.TestRunner">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-com.msp.framework.testrunner.TestRunner">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-com.msp.framework.testrunner.TestRunner">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-com.msp.framework.testrunner.TestRunner">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-com.msp.framework.testrunner.TestRunner">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-com.msp.framework.testrunner.TestRunner">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-com.msp.framework.testrunner.TestRunner">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-com.msp.framework.testrunner.TestRunner" class="hide-methods passed suite-com.msp.framework.testrunner.TestRunner"> (hide)</a> <!-- hide-methods passed suite-com.msp.framework.testrunner.TestRunner -->
+                      <a href="#" panel-name="suite-com.msp.framework.testrunner.TestRunner" class="show-methods passed suite-com.msp.framework.testrunner.TestRunner"> (show)</a> <!-- show-methods passed suite-com.msp.framework.testrunner.TestRunner -->
+                    </span>
+                    <div class="method-list-content passed suite-com.msp.framework.testrunner.TestRunner">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.msp.framework.testrunner.TestRunner" title="com.msp.framework.testrunner.TestRunner" hash-for-method="feature(This feature is responsible for verifying an end to end Order for T-Shirt (and Verify in Order Histo...)">feature(This feature is responsible for verifying an end to end Order for T-Shirt (and Verify in Order Histo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-com.msp.framework.testrunner.TestRunner -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-com.msp.framework.stepdefinition.PersonalInfoUpdate">
+              <span class="suite-name border-passed">com.msp.framework.stepdefinition.PersonalInfoUpdate</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-com.msp.framework.stepdefinition.PersonalInfoUpdate">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-com.msp.framework.stepdefinition.PersonalInfoUpdate">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-com.msp.framework.stepdefinition.PersonalInfoUpdate">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-com.msp.framework.stepdefinition.PersonalInfoUpdate">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-com.msp.framework.stepdefinition.PersonalInfoUpdate">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-com.msp.framework.stepdefinition.PersonalInfoUpdate">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-com.msp.framework.stepdefinition.PersonalInfoUpdate">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">0 methods,   </span>
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-com.msp.framework.stepdefinition.LoginStep" class="panel com.msp.framework.stepdefinition.LoginStep">
+        </div> <!-- panel com.msp.framework.stepdefinition.LoginStep -->
+        <div panel-name="suite-com.msp.framework.stepdefinition.OrderStep" class="panel com.msp.framework.stepdefinition.OrderStep">
+        </div> <!-- panel com.msp.framework.stepdefinition.OrderStep -->
+        <div panel-name="suite-com.msp.framework.stepdefinition.Hooks" class="panel com.msp.framework.stepdefinition.Hooks">
+        </div> <!-- panel com.msp.framework.stepdefinition.Hooks -->
+        <div panel-name="suite-com.msp.framework.testrunner.TestRunner" class="panel com.msp.framework.testrunner.TestRunner">
+          <div class="suite-com.msp.framework.testrunner.TestRunner-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.msp.framework.testrunner.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="feature(This feature is responsible for verifying an end to end Order for T-Shirt (and Verify in Order Histo...)">
+                  </a> <!-- feature(This feature is responsible for verifying an end to end Order for T-Shirt (and Verify in Order Histo...) -->
+                  <span class="method-name">feature</span>
+                  <span class="parameters">(This feature is responsible for verifying an end to end Order for T-Shirt (and Verify in Order History) and to Update Personal Information)</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-com.msp.framework.testrunner.TestRunner-class-passed -->
+        </div> <!-- panel com.msp.framework.testrunner.TestRunner -->
+        <div panel-name="suite-com.msp.framework.stepdefinition.PersonalInfoUpdate" class="panel com.msp.framework.stepdefinition.PersonalInfoUpdate">
+        </div> <!-- panel com.msp.framework.stepdefinition.PersonalInfoUpdate -->
+        <div panel-name="test-xml-com.msp.framework.stepdefinition.LoginStep" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;com.msp.framework.stepdefinition.LoginStep&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Command line test 5c49ff32-3fa7-48da-ab07-ef61fc12c77f&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.msp.framework.stepdefinition.LoginStep&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test 5c49ff32-3fa7-48da-ab07-ef61fc12c77f --&gt;
+&lt;/suite&gt; &lt;!-- com.msp.framework.stepdefinition.LoginStep --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-com.msp.framework.stepdefinition.OrderStep" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;com.msp.framework.stepdefinition.OrderStep&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Command line test fcb14b23-08a2-4ab0-83c9-f4d4a8f4bfa0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.msp.framework.stepdefinition.OrderStep&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test fcb14b23-08a2-4ab0-83c9-f4d4a8f4bfa0 --&gt;
+&lt;/suite&gt; &lt;!-- com.msp.framework.stepdefinition.OrderStep --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-com.msp.framework.stepdefinition.Hooks" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;com.msp.framework.stepdefinition.Hooks&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Command line test 3e016fcd-575c-4767-bb76-2abd8ff2597e&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.msp.framework.stepdefinition.Hooks&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test 3e016fcd-575c-4767-bb76-2abd8ff2597e --&gt;
+&lt;/suite&gt; &lt;!-- com.msp.framework.stepdefinition.Hooks --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-com.msp.framework.testrunner.TestRunner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;com.msp.framework.testrunner.TestRunner&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Command line test c56c5d67-bbbc-45db-a187-13b3a3de4415&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.msp.framework.testrunner.TestRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test c56c5d67-bbbc-45db-a187-13b3a3de4415 --&gt;
+&lt;/suite&gt; &lt;!-- com.msp.framework.testrunner.TestRunner --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-com.msp.framework.stepdefinition.PersonalInfoUpdate" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;com.msp.framework.stepdefinition.PersonalInfoUpdate&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Command line test 7839709c-268a-43db-b173-c927d38d528c&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.msp.framework.stepdefinition.PersonalInfoUpdate&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test 7839709c-268a-43db-b173-c927d38d528c --&gt;
+&lt;/suite&gt; &lt;!-- com.msp.framework.stepdefinition.PersonalInfoUpdate --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-com.msp.framework.stepdefinition.LoginStep" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for com.msp.framework.stepdefinition.LoginStep</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test 5c49ff32-3fa7-48da-ab07-ef61fc12c77f (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-com.msp.framework.stepdefinition.OrderStep" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for com.msp.framework.stepdefinition.OrderStep</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test fcb14b23-08a2-4ab0-83c9-f4d4a8f4bfa0 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-com.msp.framework.stepdefinition.Hooks" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for com.msp.framework.stepdefinition.Hooks</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test 3e016fcd-575c-4767-bb76-2abd8ff2597e (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-com.msp.framework.testrunner.TestRunner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for com.msp.framework.testrunner.TestRunner</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test c56c5d67-bbbc-45db-a187-13b3a3de4415 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-com.msp.framework.stepdefinition.PersonalInfoUpdate" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for com.msp.framework.stepdefinition.PersonalInfoUpdate</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test 7839709c-268a-43db-b173-c927d38d528c (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-com.msp.framework.stepdefinition.LoginStep" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for com.msp.framework.stepdefinition.LoginStep</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-com.msp.framework.stepdefinition.OrderStep" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for com.msp.framework.stepdefinition.OrderStep</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-com.msp.framework.stepdefinition.Hooks" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for com.msp.framework.stepdefinition.Hooks</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-com.msp.framework.testrunner.TestRunner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for com.msp.framework.testrunner.TestRunner</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">feature</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-com.msp.framework.stepdefinition.PersonalInfoUpdate" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for com.msp.framework.stepdefinition.PersonalInfoUpdate</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-com.msp.framework.stepdefinition.LoginStep" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for com.msp.framework.stepdefinition.LoginStep</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_com.msp.framework.stepdefinition.LoginStep');
+function tableData_com.msp.framework.stepdefinition.LoginStep() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['com.msp.framework.stepdefinition.LoginStep']= { tableData: data, tableDiv: 'times-div-com.msp.framework.stepdefinition.LoginStep'}
+return data;
+}
+              </script>
+              <div id="times-div-com.msp.framework.stepdefinition.LoginStep">
+              </div> <!-- times-div-com.msp.framework.stepdefinition.LoginStep -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-com.msp.framework.stepdefinition.OrderStep" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for com.msp.framework.stepdefinition.OrderStep</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_com.msp.framework.stepdefinition.OrderStep');
+function tableData_com.msp.framework.stepdefinition.OrderStep() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['com.msp.framework.stepdefinition.OrderStep']= { tableData: data, tableDiv: 'times-div-com.msp.framework.stepdefinition.OrderStep'}
+return data;
+}
+              </script>
+              <div id="times-div-com.msp.framework.stepdefinition.OrderStep">
+              </div> <!-- times-div-com.msp.framework.stepdefinition.OrderStep -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-com.msp.framework.stepdefinition.Hooks" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for com.msp.framework.stepdefinition.Hooks</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_com.msp.framework.stepdefinition.Hooks');
+function tableData_com.msp.framework.stepdefinition.Hooks() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['com.msp.framework.stepdefinition.Hooks']= { tableData: data, tableDiv: 'times-div-com.msp.framework.stepdefinition.Hooks'}
+return data;
+}
+              </script>
+              <div id="times-div-com.msp.framework.stepdefinition.Hooks">
+              </div> <!-- times-div-com.msp.framework.stepdefinition.Hooks -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-com.msp.framework.testrunner.TestRunner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for com.msp.framework.testrunner.TestRunner</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_com.msp.framework.testrunner.TestRunner');
+function tableData_com.msp.framework.testrunner.TestRunner() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'feature')
+data.setCell(0, 2, 'com.msp.framework.testrunner.TestRunner')
+data.setCell(0, 3, 47661);
+window.suiteTableData['com.msp.framework.testrunner.TestRunner']= { tableData: data, tableDiv: 'times-div-com.msp.framework.testrunner.TestRunner'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 47 seconds</span>
+              <div id="times-div-com.msp.framework.testrunner.TestRunner">
+              </div> <!-- times-div-com.msp.framework.testrunner.TestRunner -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-com.msp.framework.stepdefinition.PersonalInfoUpdate" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for com.msp.framework.stepdefinition.PersonalInfoUpdate</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_com.msp.framework.stepdefinition.PersonalInfoUpdate');
+function tableData_com.msp.framework.stepdefinition.PersonalInfoUpdate() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['com.msp.framework.stepdefinition.PersonalInfoUpdate']= { tableData: data, tableDiv: 'times-div-com.msp.framework.stepdefinition.PersonalInfoUpdate'}
+return data;
+}
+              </script>
+              <div id="times-div-com.msp.framework.stepdefinition.PersonalInfoUpdate">
+              </div> <!-- times-div-com.msp.framework.stepdefinition.PersonalInfoUpdate -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-com.msp.framework.stepdefinition.LoginStep" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for com.msp.framework.stepdefinition.LoginStep</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-com.msp.framework.stepdefinition.OrderStep" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for com.msp.framework.stepdefinition.OrderStep</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-com.msp.framework.stepdefinition.Hooks" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for com.msp.framework.stepdefinition.Hooks</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-com.msp.framework.testrunner.TestRunner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for com.msp.framework.testrunner.TestRunner</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-com.msp.framework.stepdefinition.PersonalInfoUpdate" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for com.msp.framework.stepdefinition.PersonalInfoUpdate</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-com.msp.framework.stepdefinition.LoginStep" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-com.msp.framework.stepdefinition.OrderStep" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-com.msp.framework.stepdefinition.Hooks" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-com.msp.framework.testrunner.TestRunner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-com.msp.framework.stepdefinition.PersonalInfoUpdate" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-com.msp.framework.stepdefinition.LoginStep" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-com.msp.framework.stepdefinition.OrderStep" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-com.msp.framework.stepdefinition.Hooks" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-com.msp.framework.testrunner.TestRunner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.msp.framework.testrunner.TestRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">feature(This feature is responsible for verifying an end to end Order for T-Shirt (and Verify in Order Histo...)</span>
+                <span class="method-start">594 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">after</span>
+                <span class="method-start">48259 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">48469 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-com.msp.framework.stepdefinition.PersonalInfoUpdate" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

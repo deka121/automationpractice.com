@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.msp.framework.stepdefinition.LoginStep" duration-ms="1" started-at="2019-07-31T13:09:30Z" finished-at="2019-07-31T13:09:30Z">
+    <groups>
+    </groups>
+    <test name="Command line test 5c49ff32-3fa7-48da-ab07-ef61fc12c77f" duration-ms="1" started-at="2019-07-31T13:09:30Z" finished-at="2019-07-31T13:09:30Z">
+    </test> <!-- Command line test 5c49ff32-3fa7-48da-ab07-ef61fc12c77f -->
+  </suite> <!-- com.msp.framework.stepdefinition.LoginStep -->
+  <suite name="com.msp.framework.stepdefinition.OrderStep" duration-ms="0" started-at="2019-07-31T13:09:30Z" finished-at="2019-07-31T13:09:30Z">
+    <groups>
+    </groups>
+    <test name="Command line test fcb14b23-08a2-4ab0-83c9-f4d4a8f4bfa0" duration-ms="0" started-at="2019-07-31T13:09:30Z" finished-at="2019-07-31T13:09:30Z">
+    </test> <!-- Command line test fcb14b23-08a2-4ab0-83c9-f4d4a8f4bfa0 -->
+  </suite> <!-- com.msp.framework.stepdefinition.OrderStep -->
+  <suite name="com.msp.framework.stepdefinition.Hooks" duration-ms="13" started-at="2019-07-31T13:09:30Z" finished-at="2019-07-31T13:09:30Z">
+    <groups>
+    </groups>
+    <test name="Command line test 3e016fcd-575c-4767-bb76-2abd8ff2597e" duration-ms="13" started-at="2019-07-31T13:09:30Z" finished-at="2019-07-31T13:09:30Z">
+    </test> <!-- Command line test 3e016fcd-575c-4767-bb76-2abd8ff2597e -->
+  </suite> <!-- com.msp.framework.stepdefinition.Hooks -->
+  <suite name="com.msp.framework.testrunner.TestRunner" duration-ms="49423" started-at="2019-07-31T13:09:30Z" finished-at="2019-07-31T13:10:19Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.msp.framework.testrunner.TestRunner@7f560810]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test c56c5d67-bbbc-45db-a187-13b3a3de4415" duration-ms="49423" started-at="2019-07-31T13:09:30Z" finished-at="2019-07-31T13:10:19Z">
+      <class name="com.msp.framework.testrunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.msp.framework.testrunner.TestRunner@7f560810]" name="setUpClass" is-config="true" duration-ms="426" started-at="2019-07-31T13:09:30Z" finished-at="2019-07-31T13:09:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.msp.framework.testrunner.TestRunner@7f560810]" name="feature" duration-ms="47661" started-at="2019-07-31T13:09:30Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-07-31T13:10:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This feature is responsible for verifying an end to end Order for T-Shirt (and Verify in Order History) and to Update Personal Information]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.msp.framework.testrunner.TestRunner@7f560810]" name="after" is-config="true" duration-ms="209" started-at="2019-07-31T13:10:18Z" finished-at="2019-07-31T13:10:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.msp.framework.testrunner.TestRunner@7f560810]" name="tearDownClass" is-config="true" duration-ms="943" started-at="2019-07-31T13:10:18Z" finished-at="2019-07-31T13:10:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.msp.framework.testrunner.TestRunner -->
+    </test> <!-- Command line test c56c5d67-bbbc-45db-a187-13b3a3de4415 -->
+  </suite> <!-- com.msp.framework.testrunner.TestRunner -->
+  <suite name="com.msp.framework.stepdefinition.PersonalInfoUpdate" duration-ms="0" started-at="2019-07-31T13:09:30Z" finished-at="2019-07-31T13:09:30Z">
+    <groups>
+    </groups>
+    <test name="Command line test 7839709c-268a-43db-b173-c927d38d528c" duration-ms="0" started-at="2019-07-31T13:09:30Z" finished-at="2019-07-31T13:09:30Z">
+    </test> <!-- Command line test 7839709c-268a-43db-b173-c927d38d528c -->
+  </suite> <!-- com.msp.framework.stepdefinition.PersonalInfoUpdate -->
+</testng-results>
